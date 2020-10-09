@@ -1,11 +1,11 @@
-#算法练习
+# 算法练习
 <p>
 个人练习算法的仓库<br>
 题目来源于leetcode、牛客以及面试中遇到的一些题目。
 </p>
 ---
 
-##目录说明
+## 目录说明
 * #### dataStructure 数据结构
     <details>
     <summary>一些细节</summary>
