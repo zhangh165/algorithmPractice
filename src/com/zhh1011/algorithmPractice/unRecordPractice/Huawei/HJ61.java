@@ -1,4 +1,4 @@
-package com.zhh1011.algorithmPractice.Huawei;
+package com.zhh1011.algorithmPractice.unRecordPractice.Huawei;
 
 public class HJ61 {
     public static int getResult(int m,int n){

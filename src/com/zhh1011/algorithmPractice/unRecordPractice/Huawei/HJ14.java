@@ -1,4 +1,4 @@
-package com.zhh1011.algorithmPractice.Huawei;
+package com.zhh1011.algorithmPractice.unRecordPractice.Huawei;
 
 import java.util.ArrayList;
 import java.util.Collections;
