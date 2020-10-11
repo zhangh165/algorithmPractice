@@ -11,6 +11,9 @@ public class TreeNode {
         this.val = val;
     }
 
+    public TreeNode() {
+    }
+
     public static TreeNode arrayToTree(String[] nums){
         TreeNode[] treeNodes = new TreeNode[nums.length];
         for(int i = 0; i < treeNodes.length;i++){
