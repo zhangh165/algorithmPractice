@@ -1,5 +1,7 @@
 package com.zhh1011.algorithmPractice.leetcode;
 
+import com.zhh1011.algorithmPractice.Util.ListNode;
+
 public class addTwoList2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(l1.val + l2.val);
@@ -55,9 +57,4 @@ public class addTwoList2 {
         }
         return "[" + result.substring(0, result.length() - 2) + "]";
     }
-}
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
 }
