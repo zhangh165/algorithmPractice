@@ -21,9 +21,12 @@ public class ListNode {
             return null;
         }
         try {
-            List<Integer> list = Arrays.stream(array).map(Integer::parseInt)
+            List<Integer> list = Arrays.stream(array)
+                    .map(Integer::parseInt)
                     .collect(Collectors.toList());
-            List<ListNode> result = list.stream().map(ListNode::new).collect(Collectors.toList());
+            List<ListNode> result = list.stream()
+                    .map(ListNode::new)
+                    .collect(Collectors.toList());
             for (int i = 0; i < result.size() - 1; i++) {
                 result.get(i).next = result.get(i + 1);
             }
