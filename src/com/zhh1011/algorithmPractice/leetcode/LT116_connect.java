@@ -3,6 +3,7 @@ package com.zhh1011.algorithmPractice.leetcode;
 /**
  * author: dsa44
  * create time: 2020/10/15 10:42
+ * 为每层都建立一个头节点，然后中序遍历，将所有得节点串起来
  */
 public class LT116_connect {
     private static Node[] nodes;
