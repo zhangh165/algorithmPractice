@@ -14,8 +14,7 @@ public class calculate {
     public static String[] getResult(int N) {
         List<List<Long>> list = new ArrayList<>();
         String[] result = new String[N];
-        list.add(Arrays.stream(new long[]{1}).boxed().collect(Collectors.toList()));
-        for(int i = 1;i < N;i++){
+        for(int i = 0;i < N;i++){
             List<Long> temp = new ArrayList<>();
             for(int j = 0;j <= i;j++){
                 if(j == 0 || j == i){
