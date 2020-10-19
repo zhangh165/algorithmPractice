@@ -35,4 +35,15 @@ public class ListNode {
             return null;
         }
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        ListNode temp = this;
+        while(temp!=null){
+            sb.append(temp.val+",");
+            temp = temp.next;
+        }
+        return sb.substring(0,sb.length()-1);
+    }
 }
