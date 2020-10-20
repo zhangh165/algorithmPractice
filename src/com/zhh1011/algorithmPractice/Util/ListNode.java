@@ -38,6 +38,19 @@ public class ListNode {
 
     @Override
     public String toString() {
+        ListNode quick = this,slow = this;
+        while (quick!=null&&quick.next!=null){
+            quick = quick.next.next;
+            slow = slow.next;
+            if(quick == slow){
+                ListNode head = this;
+                while(head!=slow){
+                    head = head.next;
+                    slow = slow.next;
+                }
+                return "cycle list, bad node is "+head.val;
+            }
+        }
         StringBuilder sb = new StringBuilder();
         ListNode temp = this;
         while(temp!=null){
