@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * author: dsa44
  * create time: 2020/10/22 23:18
- * TODO : 重写
+ * TODO : 贪心 重写
  */
 public class LT763_partitionLabels {
     public static List<Integer> getResult(String S) {
